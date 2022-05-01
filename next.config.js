@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  distDir: '_next',
   webpack: (config, { defaultLoaders }) => {
     config.module.rules.push({
       test: /\.(css|scss)$/,
